@@ -32,6 +32,11 @@
      `ALTER DATABASE dspace OWNER TO dspace;`
     
      `GRANT ALL PRIVILEGES ON DATABASE dspace TO dspace;`
+     
+     `\c dspace`
+     `CREATE EXTENSION pgcrypto;`
+     `\q`
+     
 
 ## Installation of  servers and search engine :  tomcat and solr
 -   Apache Solr is an open-source search engine and enterprise search platform. Apache Tomcat is a free, open-source web server and servlet container that's used to host Java-based web applications.
@@ -76,8 +81,10 @@
 
 -     after build success
 -    `cd dspace/target/dspace-installer`
--    `ant fresh_install`
--     after build success
+-    `ant fresh_install` # there might be a chance that build fails due to `Required PostgreSQL 'pgcrypto' extension is NOT INSTALLED on this database.`Follow the instructions below
+-    To install it, please connect to your DSpace database as a 'superuser' and manually run the following command:
+
+  
 
 -     now check wheather the root folder does it have any folders in it or not
 
