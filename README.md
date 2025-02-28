@@ -43,13 +43,13 @@
 
 ## Installation of dspace  Frontend and Backend codes
 
--   `cd [dspace]/source`
+-   `cd dspace/source`
   
 -   `git clone https://github.com/DSpace/DSpace.git backend`
   
 -   `git clone https://github.com/DSpace/dspace-angular.git frontend`
   
--   `touch [dspace]/backend/dspace/config/local.cfg`
+-   `touch dspace/backend/dspace/config/local.cfg`
   
 -   `cp backend/dspace/config/local.cfg.EXAMPLE backend/dspace/config/local.cfg`
 
