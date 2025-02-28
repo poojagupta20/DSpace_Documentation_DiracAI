@@ -58,7 +58,7 @@
 ## Backend setup
 
 -     now go to dspace/source/backend
--    `cd backend`
+-     cd backend
 -    `mvn clean package`
 -     after build success
 -    `cd dspace/target/dspace-installer`
