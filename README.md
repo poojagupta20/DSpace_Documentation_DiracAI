@@ -12,7 +12,15 @@
 
  ## Instructions: prerequisites and database 
  -   `sudo apt update && sudo apt install ant -y`
- -   `sudo apt install maven` #Apache Maven 3.8.x or above 
+ -    Install Maven #Apache Maven 3.8.x or above
+      -  `sudo apt remove maven` # remove any previous old version maven if there
+      -  `wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz`
+      -  `tar -xvzf apache-maven-3.9.6-bin.tar.gz`
+      -  `sudo mv apache-maven-3.9.6 /opt/maven`
+      -   `sudo vi  ~/.bashrc` # now set the environment and path properly so that when maven commmand runs, it will point to this path . Put the following two lines inside bashrc
+      -   `export M2_HOME=/opt/maven`
+      -   `export PATH=$M2_HOME/bin:$PATH`
+`   
  -   `sudo apt install openjdk-17-jdk`
  -   `sudo apt install  git unzip wget curl -y`
  -   `sudo apt install postgresql postgresql-contrib -y`  # version should 12 , 13 or 14 as on date 28th Feb 2025
@@ -62,7 +70,7 @@
 -    `mvn clean package`  # in case it says The JAVA_HOME environment variable is not defined correctly, you need to do the following
       -  `sudo update-java-alternatives --list`  # Need to check the path of java environment  it will print like `/usr/lib/jvm/java-1.17.0-openjdk-amd64`
       -  `sudo vi ~/.bashrc`# add the follwoinftwo lines inside bashrc
-      -  `export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64`
+      -  `export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64`
       -  `export PATH=$JAVA_HOME/bin:$PATH`
 
 
