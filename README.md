@@ -91,9 +91,8 @@
 -    lastname = admin
 -    Select  when it asks for Is the above data correct? (y or n)
 -    password as admin
--    reenter the password admin
-
--     now copy the generated solr files in root folder to our solr server configsets folder by deleting the existing files in server solar files
+-    Re-enter the password again
+-    now copy the generated solr files in root folder to our solr server configsets folder by deleting the existing files in server solar files
 
 -     `rm -rf ../../servers/solr-8.11.4/server/solr/configsets/`
 
