@@ -17,4 +17,4 @@
     
      `GRANT ALL PRIVILEGES ON DATABASE dspace TO dspace;`
 
-
+## Instructions: Servers tomcat and solr
