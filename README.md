@@ -1,6 +1,6 @@
 # DSpace_Installation in Ubuntu 22.04lts
 
- One need to install maven 3.X , Java-17.X , tomcat 10.X, solr 8.11.X, node 20.x and ant 1.X
+ One need to install Apache Maven 3.8.x or above  , Java-17.X , tomcat 10.X, solr 8.11.X, node 20.x and ant 1.X
 
  ## Directory hierarchy
    -  go to any area inside your laptop 
@@ -12,7 +12,7 @@
 
  ## Instructions: prerequisites and database 
  -   `sudo apt update && sudo apt install ant -y`
- -   `sudo apt install maven`
+ -   `sudo apt install maven` #Apache Maven 3.8.x or above 
  -   `sudo apt install openjdk-17-jdk`
  -   `sudo apt install  git unzip wget curl -y`
  -   `sudo apt install postgresql postgresql-contrib -y`  # version should 12 , 13 or 14 as on date 28th Feb 2025
