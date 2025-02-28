@@ -2,6 +2,11 @@
 
  One need to install maven 3.X , Java-17.X , tomcat 10.X, solr 8.11.X, node 20.x and ant 1.X
 
+ ## Directory hierarchy
+   -  go to any area inside your laptop 
+   -  `mkdir dspace`
+
+
  ## Instructions: Database and environment 
  -   `sudo apt install maven`
  -   `sudo apt install openjdk-17-jdk`
