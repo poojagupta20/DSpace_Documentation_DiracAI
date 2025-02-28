@@ -4,4 +4,5 @@
 
  ## Instructions
  -  `sudo apt install maven`
+ -   `sudo apt install openjdk-17-jdk`
 
