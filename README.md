@@ -65,9 +65,8 @@
 
 ## Backend setup
 
--     now go to dspace/source/backend
--     cd backend
--    `mvn clean package`  # in case it says The JAVA_HOME environment variable is not defined correctly, you need to do the following
+-   `cd backend` # Navigate to backend directory 
+-   `mvn clean package`  # in case it says The JAVA_HOME environment variable is not defined correctly, you need to do the following
       -  `sudo update-java-alternatives --list`  # Need to check the path of java environment  it will print like `/usr/lib/jvm/java-1.17.0-openjdk-amd64`
       -  `sudo vi ~/.bashrc`# add the follwoinftwo lines inside bashrc
       -  `export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64`
