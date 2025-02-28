@@ -59,7 +59,9 @@
 
 -     now go to dspace/source/backend
 -     cd backend
--    `mvn clean package`
+-    `mvn clean package`  # in case it says The JAVA_HOME environment variable is not defined correctly, you need to do the following
+      -  jj
+
 -     after build success
 -    `cd dspace/target/dspace-installer`
 -    `ant fresh_install`
