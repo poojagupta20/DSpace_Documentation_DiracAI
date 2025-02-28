@@ -79,19 +79,10 @@
       -  `export JAVA_HOME=//usr/lib/jvm/java-17-openjdk-amd64`
       -  `export PATH=$JAVA_HOME/bin:$PATH`
 
-
-
--     after build success
 -    `cd dspace/target/dspace-installer`
 -    `ant fresh_install` 
 
-  
-
--     now check wheather the root folder does it have any folders in it or not
-
--     now got to dspace/root/bin
-
--    `cd ../../../../../root/bin`
+-    `cd dspace/root/bin` # go to root/bin folder
 -    `sudo ./dspace database migrate`
 -    `sudo ./dspace create-administrator`
 -     give username = admin@gmail.com
