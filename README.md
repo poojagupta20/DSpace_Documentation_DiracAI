@@ -25,7 +25,8 @@
     
      `GRANT ALL PRIVILEGES ON DATABASE dspace TO dspace;`
 
-## Installation of tomcat and solr
+## Installation of  servers and search engine :  tomcat and solr
+-   Apache Solr is an open-source search engine and enterprise search platform. Apache Tomcat is a free, open-source web server and servlet container that's used to host Java-based web applications.
 
 -   `cd servers/`
 
