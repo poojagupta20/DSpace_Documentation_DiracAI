@@ -27,7 +27,7 @@
 
 ## Installation of  servers and search engine :  tomcat and solr
 -   Apache Solr is an open-source search engine and enterprise search platform. Apache Tomcat is a free, open-source web server and servlet container that's used to host Java-based web applications.
--   `dspace code expects some files from solr and tomcat to be present , so we need to download and untar them first`
+-   dspace code expects some files from solr and tomcat to be present , so we need to download and untar them first
 -   `cd servers/`
 
 -   `wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.36/bin/apache-tomcat-10.1.36.tar.gz`
