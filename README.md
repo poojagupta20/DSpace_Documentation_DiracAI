@@ -92,7 +92,10 @@
 -    Select  when it asks for Is the above data correct? (y or n)
 -    password as admin
 -    Re-enter the password again
--    now copy the generated solr files in root folder to our solr server configsets folder by deleting the existing files in server solar files
+-    `rm -rf /home/bibhu/DiracAI-Services/DSpace/server/solr-8.11.4/server/solr/configsets/*`
+-    `cd /home/bibhu/DiracAI-Services/DSpace/server/solr-8.11.4/server/solr/configsets/`
+-    `cp -r /home/bibhu/DiracAI-Services/DSpace/root/solr/* .`
+
 
 -     `rm -rf ../../servers/solr-8.11.4/server/solr/configsets/`
 
