@@ -33,7 +33,7 @@
 
 ## Installing servers tomcat and solr
 
--   `cd ../servers/`
+-   `cd servers/`
 
 -   `wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.36/bin/apache-tomcat-10.1.36.tar.gz`
 -   `tar -xvzf apache-tomcat-10.1.36.tar.gz`
