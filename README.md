@@ -7,4 +7,6 @@
  -   `sudo apt install openjdk-17-jdk`
  -   `sudo apt update && sudo apt install ant -y`
  -   `sudo apt install  git unzip wget curl -y`
-`
+ -   `sudo apt install postgresql postgresql-contrib -y`  # version should 12 , 13 or 14 as on date 28th Feb 2025
+
+
