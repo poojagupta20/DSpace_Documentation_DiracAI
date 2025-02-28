@@ -108,10 +108,12 @@
 
 
 -      `sudo ./solr start -p 8983 -force`
+-    check if the solr is working by visiting this link: http://localhost:8983/
 
 -     `cd  ../../apache-tomcat-10.1.36/bin`
 
--     `./startup.sh`
+-     `sudo ./startup.sh`
+-   Check this by visiting this link: http://localhost:8080/server/#/server/api
 ## Frontend setup
 
 -  now go to frontend cloned path folder
