@@ -142,7 +142,9 @@
 
   - now start the frontend server
   - `npm install`
+  - `nvm use 20` # make sure node version is 20
   - `npm start`
+  -  DSpace page will open in this link: http://localhost:4000/
 
    
    
