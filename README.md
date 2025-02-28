@@ -97,10 +97,15 @@
 -    `cp -r /home/bibhu/DiracAI-Services/DSpace/root/solr/* .`
 -    `cp -r /home/bibhu/DiracAI-Services/DSpace/root/webapps/server /home/bibhu/DiracAI-Services/DSpace/server/apache-tomcat-10.1.36/webapps/`
 
+-  if Envionment variables are not properly set , it migth get error
+-  sudo nano /etc/environment  # Look for any existing JAVA_HOME entry and replace it with
+-  JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+-  source /etc/environment
+-  echo $JAVA_HOME
+
+ 
 
 
-
--     `cd  ../../servers/solr-8.11.4/bin/'
 
 -      `sudo ./solr start -p 8983 -force`
 
