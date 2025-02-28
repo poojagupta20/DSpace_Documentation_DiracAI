@@ -5,7 +5,10 @@
  ## Directory hierarchy
    -  go to any area inside your laptop 
    -  `mkdir dspace`
-
+   -  `cd dspace`
+   -  `mkdir root` # will be used for compiled files
+   -  `mkdir servers` # will be used for tomcat and solr installation
+   -   `mkdir source`  # will be used for front-end and back-end installatio
 
  ## Instructions: Database and environment 
  -   `sudo apt install maven`
