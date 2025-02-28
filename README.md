@@ -8,9 +8,9 @@
    -  `cd dspace`
    -  `mkdir root` # will be used for compiled files
    -  `mkdir servers` # will be used for tomcat and solr installation
-   -   `mkdir source`  # will be used for front-end and back-end installatio
+   -  `mkdir source`  # will be used for front-end and back-end installatio
 
- ## Instructions: Database and environment 
+ ## Instructions: prerequisites and database 
  -   `sudo apt install maven`
  -   `sudo apt install openjdk-17-jdk`
  -   `sudo apt update && sudo apt install ant -y`
@@ -25,21 +25,7 @@
     
      `GRANT ALL PRIVILEGES ON DATABASE dspace TO dspace;`
 
-
-
-
-
-  
-## Make a seperate directory for the dspace and path/to/dspace and lets mark this path as [dspace]
-## create 3 folders name them as root , servers and source
-
-
- 
--   `mkdir root`
--   `mkdir servers`
--   `mkdir source`
-
-## Installing servers tomcat and solr
+## Installation of tomcat and solr
 
 -   `cd servers/`
 
