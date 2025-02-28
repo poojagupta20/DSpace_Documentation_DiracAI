@@ -41,7 +41,7 @@
 
 
 
-## installing source code frontend and backend
+## Installation of dspace  Frontend and Backend codes
 
 -   `cd [dspace]/source`
   
