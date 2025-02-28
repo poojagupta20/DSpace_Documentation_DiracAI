@@ -3,8 +3,8 @@
  One need to install maven 3.X , Java-17.X , tomcat 10.X, solr 8.11.X, node 20.x and ant 1.X
 
  ## Directory hierarchy 
-     -  `mkdir dspace` # anywhere inside your laptop
-     -  `cd dspace` 
+     -   `mkdir dspace` # anywhere inside your laptop
+     -   `cd dspace` 
      -   `mkdir root` 
      -   `mkdir source` # for back-end and front-end repos
      -   `mkdir servers`  # for tomcat and solr
