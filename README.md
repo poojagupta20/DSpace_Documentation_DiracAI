@@ -85,12 +85,13 @@
 -    `cd dspace/root/bin` # go to root/bin folder
 -    `sudo ./dspace database migrate`
 -    `sudo ./dspace create-administrator`
--     give username = admin@gmail.com
--     firstname = admin
--     lastname = admin
--     select y
--     password as admin
--     reenter the password admin
+-    Put the following values while creating an administrator account
+-    username = admin@gmail.com
+-    firstname = admin
+-    lastname = admin
+-    Select  when it asks for Is the above data correct? (y or n)
+-    password as admin
+-    reenter the password admin
 
 -     now copy the generated solr files in root folder to our solr server configsets folder by deleting the existing files in server solar files
 
