@@ -34,7 +34,9 @@
      `GRANT ALL PRIVILEGES ON DATABASE dspace TO dspace;`
      
      `\c dspace`
+     
      `CREATE EXTENSION pgcrypto;`
+     
      `\q`
      
 
@@ -81,8 +83,7 @@
 
 -     after build success
 -    `cd dspace/target/dspace-installer`
--    `ant fresh_install` # there might be a chance that build fails due to `Required PostgreSQL 'pgcrypto' extension is NOT INSTALLED on this database.`Follow the instructions below
--    To install it, please connect to your DSpace database as a 'superuser' and manually run the following command:
+-    `ant fresh_install` 
 
   
 
