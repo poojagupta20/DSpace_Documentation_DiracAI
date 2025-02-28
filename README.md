@@ -52,6 +52,8 @@
 -   `touch backend/dspace/config/local.cfg`
   
 -   `cp backend/dspace/config/local.cfg.EXAMPLE backend/dspace/config/local.cfg`
+  
+-    Now you need to go to the root folder and print the path of root with the command `pwd`. It will print something like `/home/bibhu/DiracAI-Services/DSpace/root` . Now put this path inside local.cfg  like `dspace.dir=/home/bibhu/DiracAI-Services/DSpace/root` 
 
    
    
