@@ -98,11 +98,7 @@
 -    `cp -r /home/bibhu/DiracAI-Services/DSpace/root/webapps/server /home/bibhu/DiracAI-Services/DSpace/server/apache-tomcat-10.1.36/webapps/`
 
 
--     `rm -rf ../../servers/solr-8.11.4/server/solr/configsets/`
 
--     `cp -rf ../solr/* ../../servers/solr-8.11.4/server/solr/configsets`
-
--     `cp -rf ../webapps/server ../../servers/apache-tomcat-10.1.36/webapps`
 
 -     `cd  ../../servers/solr-8.11.4/bin/'
 
