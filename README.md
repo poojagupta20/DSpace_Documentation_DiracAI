@@ -17,4 +17,24 @@
     
      `GRANT ALL PRIVILEGES ON DATABASE dspace TO dspace;`
 
+
+     
+   make a seperate directory for the dspace and path/to/dspace and lets mark this path as [dspace]
+
+
+
 ## Instructions: Servers tomcat and solr
+   now go to [dspace] / servers
+
+   
+   wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.36/bin/apache-tomcat-10.1.36.tar.gz
+   tar -xvzf apache-tomcat-10.1.36.tar.gz
+
+   wget https://www.apache.org/dyn/closer.lua/lucene/solr/8.11.4/solr-8.11.4.tgz?action=download -O solr-8.11.4.tgz
+   tar -xvzf solr-8.11.4.tgz
+
+
+    
+
+
+
