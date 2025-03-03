@@ -124,7 +124,7 @@
 
 - `cp config/config.example.yml config/config.prod.yml`
 
-  Now open config.prod.yml file and look for the line something like
+-  Now open config.prod.yml file and look for the line something like
 
  `rest:
   ssl: true
