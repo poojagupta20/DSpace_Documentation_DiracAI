@@ -152,6 +152,36 @@
 # api integration
 
 ## Default DSpace APIs
+
+-- Refer the link for list of apis in communities
+
+https://github.com/bmahakud/DSpace_Installation/blob/main/Communities.md
+
+-- Refer the link for list of apis in collections
+
+https://github.com/bmahakud/DSpace_Installation/blob/main/Collections.md
+
+-- Refer the link for list of apis in Browses
+
+https://github.com/bmahakud/DSpace_Installation/blob/main/Browses.md
+
+-- Refer the link for list of apis in for other endpoints
+
+https://github.com/bmahakud/DSpace_Installation/blob/main/endpoints.md
+
+-- Refer the link for list of apis in for other items
+
+https://github.com/bmahakud/DSpace_Installation/blob/main/eperson.md
+
+
+
+
+
+
+
+
+
+
   --  Login API 
 https://sandbox.dspace.org/server/api/authn/login
 https://sandbox.dspace.org/server/api/authn/logout
