@@ -149,7 +149,20 @@
    
    
    
-   
+## api integration
+
+# browse api
+
+- before
+- after
+- 3 queries in single api
+- 3 queries with sort options
+- date query api
+- range date query api
+- http://localhost:8080/server/api/discover/search/objects?query=dc.date.issued:%5B1999-01-01%20TO%203000-12-31%5D
+- 
+
+
 
 
 
