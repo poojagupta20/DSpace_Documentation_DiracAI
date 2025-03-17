@@ -155,47 +155,90 @@
   --  Login API 
 
   --  Create Community API
+  
   --  Get Community API
+  
   --  Update Community API
+  
   --  Delete Comminity API
   
   --  Create Collection API
+  
   --  Get Collection API
+  
   --  Update Collection API
+  
   --  Delete Collection API
+  
 
   --  Create Item API
+  
   --  Get Item API
+  
   --  Update Item API
+  
   --  Delete Item API
+  
 =================================================================
+
+
   -- Search Menu Dropdown  API
-     --- 
+
+  --- https://sandbox.dspace.org/server/#https://sandbox.dspace.org/server/api/discover/browses
+
   
   -- Search APIs 
-     By Issue date
-     By Author 
-     By Title 
-     By Subject
-     By Subject Category
-
+    
+  -- By Issue date
+  
+  --- https://demo.dspace.org/server/api/discover/browses/dateissued/items?sort=default,ASC&page=0&size=20&startsWith=2025&embed=thumbnail&embed=accessStatus
+  
+  -- By Author 
+  
+  --- https://demo.dspace.org/server/api/discover/browses/author/entries?sort=default,ASC&page=0&size=20&startsWith=sdgsdfgsd
+  
+  -- By Title 
+  
+  --- https://demo.dspace.org/server/api/discover/browses/title/items?sort=dc.title,ASC&page=0&size=20&startsWith=fg&embed=thumbnail&embed=accessStatus
+  
+  -- By Subject
+  
+  --- https://demo.dspace.org/server/api/discover/browses/subject/entries?sort=default,ASC&page=0&size=20&startsWith=sxad
+  
+  -- By Subject Category
+  
+  --- https://demo.dspace.org/server/api/submission/vocabularies/srsc/entries?filter=zdfg&exact=false
 
 ##  Modified DSpace APIs
 
   -- Modified Search Menu Dropdown  API
-    --- 
-     By CaseNumber/ Type / Year API
-     By Judge Name
-     By Petitioner / Respondent 
-     By Judgement Date
-     By FreeText
-     By Video Search
-     By Gazzette
+  
+  --- http://localhost:8080/server/#http://localhost:8080/server/api/discover/browses  
+  
+  -- Search APIs
+  
+  -- By Case Type / Number / Year API
+  
+  --- http://localhost:8080/server/api/discover/search/objects?sort=dc.title,ASC&size=10&f.dc_case_number=8766048755,equals&f.dc_case_type=crime,equals&f.dc_case_year=2025,equals
+  
+  -- By Judge Name
+  
+  --- http://localhost:8080/server/api/discover/browses/dc_judge_name/entries?sort=default,ASC&page=0&size=20&startsWith=Judge
+     
+  -- By Petitioner / Respondent 
+  
+  --- http://localhost:8080/server/api/discover/search/objects?sort=dc.title,ASC&size=10&f.dc_party_firstrespondent="",equals&f.dc_party_firstpetitioner="",equals
+     
+  -- By Judgement Date
+   
+  --- http://localhost:8080/server/api/discover/search/objects?query=dc.date.issued:%5B2002-01-01%20TO%203000-12-31%5D]
+     
+  -- By FreeText
+     
+  -- By Video Search
 
+  -- By Gazzette
 
-- http://localhost:8080/server/api/discover/search/objects?query=dc.date.issued:%5B1999-01-01%20TO%203000-12-31%5D
-- http://localhost:8080/server/#http://localhost:8080/server/api/discover/browses
-- 0
 
 
 
