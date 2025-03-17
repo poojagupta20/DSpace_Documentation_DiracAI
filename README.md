@@ -149,18 +149,53 @@
    
    
    
-## api integration
+# api integration
 
-# browse api
+## Default DSpace APIs
+  --  Login API 
 
-- before
-- after
-- 3 queries in single api
-- 3 queries with sort options
-- date query api
-- range date query api
+  --  Create Community API
+  --  Get Community API
+  --  Update Community API
+  --  Delete Comminity API
+  
+  --  Create Collection API
+  --  Get Collection API
+  --  Update Collection API
+  --  Delete Collection API
+
+  --  Create Item API
+  --  Get Item API
+  --  Update Item API
+  --  Delete Item API
+=================================================================
+  -- Search Menu Dropdown  API
+     --- 
+  
+  -- Search APIs 
+     By Issue date
+     By Author 
+     By Title 
+     By Subject
+     By Subject Category
+
+
+##  Modified DSpace APIs
+
+  -- Modified Search Menu Dropdown  API
+    --- 
+     By CaseNumber/ Type / Year API
+     By Judge Name
+     By Petitioner / Respondent 
+     By Judgement Date
+     By FreeText
+     By Video Search
+     By Gazzette
+
+
 - http://localhost:8080/server/api/discover/search/objects?query=dc.date.issued:%5B1999-01-01%20TO%203000-12-31%5D
-- 
+- http://localhost:8080/server/#http://localhost:8080/server/api/discover/browses
+- 0
 
 
 
