@@ -153,7 +153,10 @@
 
 ## Default DSpace APIs
   --  Login API 
-
+https://sandbox.dspace.org/server/api/authn/login
+https://sandbox.dspace.org/server/api/authn/logout
+https://sandbox.dspace.org/server/api/authn/status
+https://sandbox.dspace.org/server/api/authz/authorizations
   --  Create Community API
   
   --  Get Community API
@@ -169,6 +172,10 @@
   --  Update Collection API
   
   --  Delete Collection API
+
+
+
+  
   
 
   --  Create Item API
