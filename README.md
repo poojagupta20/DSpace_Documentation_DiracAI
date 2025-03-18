@@ -149,7 +149,7 @@
    
    
    
-# api integration
+# DSpace API information
 
 ## Default DSpace APIs
 
