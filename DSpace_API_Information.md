@@ -24,3 +24,10 @@
             "href": "http://localhost:8080/server/api/authn/status"
         }
     }`
+
+
+### Community , Collection and Item view APIs
+
+
+
+
