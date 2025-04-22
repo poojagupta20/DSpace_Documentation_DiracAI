@@ -253,7 +253,6 @@ If you want these fields available in Angular UI filters or browse tabs, you mus
 
 > **Author:** Reshwanth  
 > **Last Updated:** April 21, 2025  
-> **Target DSpace Version:** 7.6.2+
+> **Target DSpace Version:** 8.x+
 ```
 
----
