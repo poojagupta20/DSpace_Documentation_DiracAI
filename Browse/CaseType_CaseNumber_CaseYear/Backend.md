@@ -2,7 +2,7 @@
 # 📄 Metadata Registration & Search Configuration in DSpace 8.x  
 ## 🧾 Adding Metadata Fields: `dc.case.number`, `dc.caseyear`, `dc.casetype`
 
-This document outlines the steps to register new metadata fields in DSpace 7.x and configure them for:
+This document outlines the steps to register new metadata fields in DSpace 8.x and configure them for:
 - Solr indexing
 - Faceted search
 - Submission forms
@@ -129,7 +129,7 @@ To enable faceted filtering in the sidebar during discovery searches.
 
 ### 🔧 File:
 ```
-[dspace]/config/item-submission.xml
+[dspace]/config/submission-forms.xml
 ```
 
 ### ➕ Add inside `<row>` blocks:
