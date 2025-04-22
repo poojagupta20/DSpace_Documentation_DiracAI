@@ -244,12 +244,7 @@ By completing these steps, you will:
 
 ---
 
-### 🧠 Pro Tip:
-If you want these fields available in Angular UI filters or browse tabs, you must also update:
-- `config.prod.yml` (in DSpace Angular)
-- `en.json5` (for labels)
 
----
 
 > **Author:** Reshwanth  
 > **Last Updated:** April 21, 2025  
