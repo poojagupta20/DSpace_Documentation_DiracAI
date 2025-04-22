@@ -87,7 +87,7 @@ To enable faceted filtering in the sidebar during discovery searches.
 
 ### 🔧 File:
 ```
-[dspace]/config/item-submission.xml
+[dspace]/config/submission-forms.xml
 ```
 
 ### ➕ Add inside `<row>` blocks:
