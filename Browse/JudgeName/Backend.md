@@ -1,5 +1,5 @@
 # 📄 Metadata Registration & Search Configuration in DSpace 8.x  
-## 🧾 Adding Metadata Fields: `dc.case.number`, `dc.caseyear`, `dc.casetype`
+## 🧾 Adding Metadata Fields: `dc.judge.name`
 
 This document outlines the steps to register new metadata fields in DSpace 7.x and configure them for:
 - Solr indexing
