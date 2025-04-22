@@ -1,4 +1,3 @@
-```markdown
 # 📄 Metadata Registration & Search Configuration in DSpace 8.x  
 ## 🧾 Adding Metadata Fields: `dc.case.number`, `dc.caseyear`, `dc.casetype`
 
@@ -13,7 +12,8 @@ This document outlines the steps to register new metadata fields in DSpace 7.x a
 ## 🧱 Step 1: Register Metadata Fields
 
 ### 🔧 File:
-```
+
+
 [dspace]/config/registries/dublin-core-types.xml
 ```
 
@@ -182,4 +182,3 @@ By completing these steps, you will:
 > **Target DSpace Version:** 7.6.2+
 ```
 
----
