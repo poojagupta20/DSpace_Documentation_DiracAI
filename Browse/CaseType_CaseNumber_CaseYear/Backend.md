@@ -1,15 +1,5 @@
-Sure! Here's the **complete `.md` file** documenting how to register new metadata fields in DSpace 7.x, configure them for Solr search, make them visible in submission forms, and include them in browse and sort indexes.
-
-You can save this as:
-
-```bash
-docs/metadata-browse-dspace-case-fields.md
-```
-
----
-
 ```markdown
-# 📄 Metadata Registration & Search Configuration in DSpace 7.x  
+# 📄 Metadata Registration & Search Configuration in DSpace 8.x  
 ## 🧾 Adding Metadata Fields: `dc.case.number`, `dc.caseyear`, `dc.casetype`
 
 This document outlines the steps to register new metadata fields in DSpace 7.x and configure them for:
@@ -24,7 +14,7 @@ This document outlines the steps to register new metadata fields in DSpace 7.x a
 
 ### 🔧 File:
 ```
-[dspace]/config/registries/metadata-types.xml
+[dspace]/config/registries/dublin-core-types.xml
 ```
 
 ### ➕ Add:
@@ -229,15 +219,18 @@ To allow users to browse items using a combination of case metadata.
 
 ### 📌 Run:
 ```bash
-# Export metadata (if necessary)
-[dspace]/bin/dspace metadata-registry export -f [path]/metadata.xml
-
+# Export metadata (if necessary) in [dspace]
+sudo ./dspace registry-loader -metadata ../config/registries/dublin-core-types.xml
 # Reindex Discovery
-[dspace]/bin/dspace index-discovery -b
-
+sudo ./dspace index-discovery -b
 # Restart DSpace services
-sudo systemctl restart tomcat
-sudo systemctl restart solr
+sudo ./startup.sh
+sudo ./shutdown.sh
+
+
+sudo ./solr start -p 8983 -force
+sudo ./solr stop -p 8983 -force
+
 ```
 
 ---
@@ -265,10 +258,3 @@ If you want these fields available in Angular UI filters or browse tabs, you mus
 ```
 
 ---
-
-Would you like me to:
-- Generate this as a **styled PDF**?
-- Create a **diagram** for metadata flow?
-- Help with the **Angular config update** for these fields?
-
-Let’s keep building it out step-by-step!
