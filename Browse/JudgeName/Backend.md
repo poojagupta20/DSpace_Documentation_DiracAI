@@ -182,4 +182,3 @@ By completing these steps, you will:
 > **Target DSpace Version:** 7.6.2+
 ```
 
----
