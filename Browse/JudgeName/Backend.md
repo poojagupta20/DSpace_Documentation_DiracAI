@@ -169,17 +169,11 @@ sudo ./solr stop -p 8983 -force
 ## ✅ Final Outcome
 
 By completing these steps, you will:
-- Register `dc.case.number`, `dc.caseyear`, `dc.casetype`
+- Register `dc.case.number`, `dc.caseyear`, `dc.judge.name`
 - Enable search filtering and browse indexing
 - Allow submission/editing via DSpace UI
 - Power discovery, analytics, and automation features with structured case metadata
 
----
-
-### 🧠 Pro Tip:
-If you want these fields available in Angular UI filters or browse tabs, you must also update:
-- `config.prod.yml` (in DSpace Angular)
-- `en.json5` (for labels)
 
 ---
 
