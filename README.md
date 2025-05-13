@@ -147,6 +147,13 @@
   -  DSpace page will open in this link: http://localhost:4000/
 
    
+
+## DSpace admin user creation 
+ - `cd DSpace/root/bin`
+ - `./dspace create-administrator`
+
+
+
    
    
 # DSpace API information
