@@ -110,6 +110,7 @@
 -      sudo ./solr start -p 8983 -force
 -    check if the solr is working by visiting this link: http://localhost:8983/
 
+- export CATALINA_HOME=$HOME/DiracAI-Services/DSpace/server/apache-tomcat-10.1.36  # sometimes it works without this command 
 -     cd  ../../apache-tomcat-10.1.36/bin
 
 -     sudo ./startup.sh
