@@ -16,7 +16,7 @@ This document outlines the steps to register new metadata fields in DSpace 7.x a
 [dspace]/config/registries/dublin-core-types.xml
 ```
 
-### ➕ Add:
+### ➕ Add: inside dspace-dc-types tag
 ```xml
 <!-- Case Number -->
 <dc-type>
@@ -50,10 +50,10 @@ To register these metadata fields in the internal DSpace metadata registry.
 
 ### 🔧 File:
 ```
-[dspace]/config/spring/discovery.xml
+[dspace]/config/spring/api/discovery.xml
 ```
 
-### ➕ Under `<property name="searchFilters">`:
+### ➕ Under `<property name="searchFilters">`: inside `bean id="defaultConfiguration"`
 ```xml
 <ref bean="searchFilterCaseNumber" />
 <ref bean="searchFilterCaseType" />
@@ -110,10 +110,10 @@ To enable faceted filtering in the sidebar during discovery searches.
 
 ### 🔧 File:
 ```
-[dspace]/config/spring/discovery.xml
+[dspace]/config/spring/api/discovery.xml  
 ```
 
-### ➕ Under `<property name="searchSortConfiguration">`:
+### ➕ Under `<property name="searchSortConfiguration">`: inside `bean id="defaultConfiguration"`
 ```xml
 <ref bean="sortByCaseNumber" />
 <ref bean="sortByCaseType"/>
@@ -131,7 +131,8 @@ To enable faceted filtering in the sidebar during discovery searches.
 [dspace]/config/submission-forms.xml
 ```
 
-### ➕ Add inside `<row>` blocks:
+### ➕ Add inside `<row>` blocks: inside `<form name="bitstream-metadata">`
+
 ```xml
 <row>
     <field>
@@ -181,7 +182,7 @@ To make these metadata fields appear in the submission and edit item form.
 [dspace]/solr/search/conf/schema.xml
 ```
 
-### ➕ Add Solr fields:
+### ➕ Add Solr fields: inside last `<fields> </fields>` tag
 ```xml
 <field name="dc.case.number" type="string" indexed="true" stored="true" multiValued="false"/>
 <field name="dc.casetype" type="string" indexed="true" stored="true" multiValued="false"/>
