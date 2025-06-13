@@ -668,51 +668,6 @@ This module is designed to be deployed as part of the DSpace REST API (Spring Bo
 
 ---
 
-## **6. Setup and Deployment Steps (Conceptual)** 🛠️
-
-### **Why?**
-
-To provide a high-level guide for developers on how to integrate this new feature into an existing DSpace setup. 🗺️
-
-### **6.1. Prerequisites**
-
-* A running DSpace instance (typically DSpace 7.x or newer, as it uses Spring Boot for its REST API).
-* Java Development Kit (JDK) 11 or higher.
-* Maven for building.
-* Access to the DSpace database.
-
-### **6.2. Integration Steps**
-
-#### **Step 1: Place Source Code** 📁
-
-* Create a new module (e.g., `dspace-comment-module`) within your DSpace source tree, or integrate directly into `dspace-api` and `dspace-rest`.
-* Place the `.java` files into their respective package structures within the chosen module's `src/main/java` directory.
-
-#### **Step 2: Update Maven `pom.xml`** ✍️
-
-* Ensure necessary Spring Boot, Spring Data JPA, and DSpace core dependencies are present in the `pom.xml` of the module containing this code.
-* If a new module was created, add it to the parent DSpace `pom.xml`.
-
-#### **Step 3: Prepare Database Migration** ➡️ DB
-
-* DSpace uses Flyway/Liquibase for schema management.
-* Create a new SQL migration file (e.g., `V8.x_2025_06_13__Add_Bitstream_Comments_Table.sql`) in `[dspace-src]/dspace/etc/flyway/sql/` (or similar path for Liquibase).
-* Add the `CREATE TABLE bitstream_comment` DDL statement (from section 4.1) to this new migration file.
-
-#### **Step 4: Rebuild DSpace** 🏗️
-
-* Navigate to the DSpace source root directory in your terminal.
-* Execute the Maven command: `mvn clean package`
-
-#### **Step 5: Deploy and Migrate Database** 🚀
-
-* Deploy the newly built DSpace web application (e.g., `dspace/target/dspace-installer`) to your servlet container (e.g., Tomcat).
-* Run the DSpace database migration command to apply the new table schema:
-    ```bash
-    [dspace-install-dir]/bin/dspace database migrate
-    ```
-
-#### **Step 6: Test API Endpoints** ✅
-
-* Once DSpace is running and the database is migrated, use an API client (like Postman or curl) to test the endpoints defined in section 3.3.
-* **Remember to authenticate first** (e.g., `POST /api/authn/login`) and include the obtained authorization token in subsequent requests. 💡
+> **Author:** Pooja Gupta 
+> **Last Updated:** June 13, 2025  
+> **Target DSpace Version:** 8.x+
