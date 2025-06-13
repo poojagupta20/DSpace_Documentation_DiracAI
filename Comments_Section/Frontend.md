@@ -354,4 +354,7 @@ This template integrates the comments panel, displaying existing comments, provi
 4.  **Error Handling**: Expand on the basic `console.error` for more robust error handling (e.g., displaying user-friendly messages, logging to a monitoring service).
 5.  **Loading Comments on Init**: Remember to call `this.loadComments(this.currentBitstreamId)` within your `ngOnInit` or `ngAfterViewInit` method in the `ViewerComponent` to fetch existing comments when the component loads. You will need to ensure `this.currentBitstreamId` is correctly set.
 
+
+
+
 By following this documentation, you can confidently manage bitstream comments within your Angular file viewer application.
