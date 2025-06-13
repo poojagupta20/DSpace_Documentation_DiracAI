@@ -671,5 +671,6 @@ This module is designed to be deployed as part of the DSpace REST API (Spring Bo
 
 
 > **Author:** Pooja Gupta 
+
 > **Last Updated:** June 13, 2025  
 > **Target DSpace Version:** 8.x+
