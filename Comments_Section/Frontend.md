@@ -360,7 +360,7 @@ This template integrates the comments panel, displaying existing comments, provi
 By following this documentation, you can confidently manage bitstream comments within your Angular file viewer application.
 
 
-> **Author:** Pooja Gupta 
+**Author:** Pooja Gupta 
 
-> **Last Updated:** June 20, 2025  
-> **Target DSpace Version:** 9
+**Last Updated:** June 21, 2025  
+**Target DSpace Version:** 9
